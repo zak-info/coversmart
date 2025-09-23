@@ -3,7 +3,7 @@ import Image from "next/image";
 import { useState } from "react";
 
 export default function Home() {
-  const [isServicesOpen, setIsServicesOpen] = useState(true);
+  const [isServicesOpen, setIsServicesOpen] = useState(false);
 
   const links = [
     {
