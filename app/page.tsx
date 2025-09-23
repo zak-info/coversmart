@@ -66,10 +66,10 @@ export default function Home() {
   ];
 
   return (
-    <div className=" bg-[#FDF9ED] text-[#133249] w-screen hide-scrollbar flex flex-col items-center pt-12">
+    <div className=" bg-[#FDF9ED] text-[#133249] w-screen hide-scrollbar flex flex-col lg:px-40 items-center pt-12">
       <Image src={"/logo.png"} width={500} height={500} className="w-40 h-40 rounded-lg object-fill " alt="logo" />
       <h1 className=" mt-6 font-extrabold">Transformer l'ordinaire en extraordinaire</h1>
-      <div className="w-screen hide-scrollbar flex-wrap2 px-4 mt-6 flex gap-4 ">
+      <div className="w-screen hide-scrollbar flex-wrap2 px-4 mt-6 flex justify-center gap-4 ">
         {
           links?.map((l, index) => (
             <a key={index} href={l.href}>
