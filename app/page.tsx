@@ -88,7 +88,7 @@ export default function Home() {
               <div className={" w-screen my-12 text-white font-extrabold px-6"}>
                 <button onClick={() => setIsServicesOpen(true)} className="w-full mt-4  h-20 bg-[#22969B] rounded-lg flex items-center p-4">
                   <i className={"ri-information-2-line " + " text-white font-light text-6xl"}></i>
-                  <h1 className=" ms-6" >Services</h1>
+                  <h1 className=" ms-6" >Services Commercial</h1>
                 </button>
                 {
                   BigLinks?.map((bl, index) => (
@@ -139,7 +139,7 @@ export default function Home() {
               </div>
               <div className="flex items-start gap-3">
                 <i className="ri-phone-line text-[#22969B] text-2xl"></i>
-                <div>
+                <div className="flex flex-col">
                   <p className="font-bold">Contact commercial France</p>
                   <a className="text-sm text-[#22969B] underline" href="tel:+33665139137">+33 665 139 137</a>
                   <a className="text-sm text-[#22969B] underline" href="tel:+33647476883">+33 647 476 883</a>
@@ -152,7 +152,7 @@ export default function Home() {
                   <a className="text-sm text-[#22969B] underline" href="tel:+32484302568">+32 484 302 568</a>
                 </div>
               </div>
-            
+
               {/* <div className="flex items-start gap-3">
                 <i className="ri-map-pin-line text-[#22969B] text-2xl"></i>
                 <div>
@@ -165,6 +165,14 @@ export default function Home() {
                 <div>
                   <p className="font-bold">Site Web</p>
                   <a className="text-sm text-[#22969B] underline" href="https://www.coversmartdesign.com" target="_blank" rel="noreferrer">www.coversmartdesign.com</a>
+                </div>
+              </div>
+              <div className="flex items-start gap-3">
+                <i className="ri-map-pin-line text-[#22969B] text-2xl"></i>
+                <div>
+                  <p className="font-bold">Adresse</p>
+                  {/* <a className="text-sm text-[#22969B] underline" href="https://www.coversmartdesign.com" target="_blank" rel="noreferrer">www.coversmartdesign.com</a> */}
+                  <p className="text-sm text-[#22969B] ">55 rue du Luxembourg - 59 800.Euralille</p>
                 </div>
               </div>
             </div>
