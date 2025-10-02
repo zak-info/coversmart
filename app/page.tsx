@@ -45,6 +45,11 @@ export default function Home() {
 
   const BigLinks = [
     {
+      icon: "ri-ie-fill ",
+      href: "www.coversmartdesign.com", // replace with real page
+      label: "Facebook",
+    },
+    {
       icon: "ri-facebook-line ",
       href: "https://www.facebook.com/yourpage", // replace with real page
       label: "Facebook",
@@ -151,7 +156,7 @@ export default function Home() {
                 <i className="ri-phone-line text-[#22969B] text-2xl"></i>
                 <div>
                   <p className="font-bold">Contact commercial Belgique</p>
-                  <a className="text-sm text-[#22969B] underline" href="tel:+32484302568">+32 484 302 568</a>
+                  <a className="text-sm text-[#22969B] underline" href="tel:0033647476883">0033647476883</a>
                 </div>
               </div>
 
