@@ -47,7 +47,7 @@ export default function Home() {
     {
       icon: "ri-ie-line ",
       href: "www.coversmartdesign.com", // replace with real page
-      label: "Facebook",
+      label: "Site Web",
     },
     {
       icon: "ri-facebook-line ",
