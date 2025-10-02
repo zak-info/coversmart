@@ -8,7 +8,7 @@ export default function Home() {
   const links = [
     {
       icon: "/icons/w.png",
-      href: "https://wa.me/213555080814", // WhatsApp international format (213 = Algeria)
+      href: "https://wa.me/+32484302568", // WhatsApp international format (213 = Algeria)
       label: "Whatsapp",
     },
     {
