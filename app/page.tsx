@@ -46,7 +46,7 @@ export default function Home() {
   const BigLinks = [
     {
       icon: "ri-ie-line ",
-      href: "www.coversmartdesign.com", // replace with real page
+      href: "https://coversmartdesign.com", // replace with real page
       label: "Site Web",
     },
     {
