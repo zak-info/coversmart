@@ -13,7 +13,7 @@ export default function Home() {
     },
     {
       icon: "/icons/tl.png",
-      href: "tel:+213555080814", // Click-to-call
+      href: "tel:+33647476883", // Click-to-call
       label: "Telephone",
     },
     {
