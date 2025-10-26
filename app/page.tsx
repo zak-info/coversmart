@@ -18,12 +18,12 @@ export default function Home() {
     },
     {
       icon: "/icons/f.png",
-      href: "https://www.facebook.com/yourpage", // replace with real page
+      href: "https://www.facebook.com/share/1CzstLM747", // replace with real page
       label: "Facebook",
     },
     {
       icon: "/icons/i.png",
-      href: "https://www.instagram.com/yourprofile", // replace with real profile
+      href: "https://www.instagram.com/cover.smart.design?igsh=MWJsb2d4c2JvNXJraA==", // replace with real profile
       label: "Instagram",
     },
     {
@@ -51,12 +51,12 @@ export default function Home() {
     },
     {
       icon: "ri-facebook-line ",
-      href: "https://www.facebook.com/yourpage", // replace with real page
+      href: "https://www.facebook.com/share/1CzstLM747/", // replace with real page
       label: "Facebook",
     },
     {
       icon: "ri-instagram-line ",
-      href: "https://www.instagram.com/yourprofile", // replace with real profile
+      href: "https://www.instagram.com/cover.smart.design?igsh=MWJsb2d4c2JvNXJraA==", // replace with real profile
       label: "Instagram",
     },
     {
